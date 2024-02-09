@@ -3,9 +3,7 @@ package by.academy1.homework6;
 //      если введена "stop" строка тогда закончить запись в файл.
 
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.Scanner;
+
 
 public class Task1 {
 

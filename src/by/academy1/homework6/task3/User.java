@@ -9,6 +9,7 @@ import java.io.Serializable;
 // Не забываем закрывать потоки.
 // В блоке catch выводим сообщение ошибки на экран (System.err.println(e.getMessage());)
 public class User implements Serializable {
+
     String name;
     String surname;
     int age;

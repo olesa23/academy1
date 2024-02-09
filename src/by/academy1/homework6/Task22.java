@@ -5,7 +5,8 @@ package by.academy1.homework6;
 
 import java.io.*;
 
-public class Task2 {
+public class Task22 {
+
 
     public static void main(String[] args) throws IOException {
 

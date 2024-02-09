@@ -9,7 +9,7 @@ import java.util.Random;
 // такое-же количество символов (string.substring()) и сохраняем в наш файл.
 // Создайте файл result.txt и запишите туда список всех файлов и их размеры.
 
-public class Task4 {
+public class Task44 {
     public static void main(String[] args) {
 
         File dirs = new File("txt_files");
