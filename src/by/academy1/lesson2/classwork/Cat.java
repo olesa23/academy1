@@ -1,8 +1,10 @@
 package by.academy1.lesson2.classwork;
 
 public class Cat {
-    int age;
-    String nickname;
+    public int age;
+    private String nickname;
+    private String fullName;
+
 
     public void grow() {
         System.out.println(" кот по кличке " + nickname + " Кот растет");
@@ -50,31 +52,39 @@ public class Cat {
     public void setAge(int age) {
         this.age = age;
     }
+
     int money;
+
     public int getMoney() {
         return getMoney();
     }
-    public void setMoney( int setMoney){
+
+    public void setMoney(int setMoney) {
         this.money = money;
     }
 
     String initials;
-    public String getInitials () {
+
+    public String getInitials() {
         return getInitials();
     }
-    public void setInitials (String setInitials){
+
+    public void setInitials(String setInitials) {
         this.initials = initials;
     }
+
     boolean isHomeAnimals;
-    public boolean getIsHomeAnimals () {
+
+    public boolean getIsHomeAnimals() {
         return getIsHomeAnimals();
     }
-    public void setHomeAnimals ( boolean setHomeAnimals){
+
+    public void setHomeAnimals(boolean setHomeAnimals) {
         this.isHomeAnimals = isHomeAnimals;
     }
 
     @Override
-    public String toString () {
+    public String toString() {
         return "Cat{" +
                 "nickname='" + nickname + '\'' +
                 ", age=" + age +

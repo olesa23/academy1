@@ -1,7 +1,7 @@
 package by.academy1.lesson2.classwork;
 
 public class Aplication {
-    public static void main(String[]args){
+    public static void main(String[] args) {
         Cat noname = new Cat();
         noname.setNickname("Без имени");
         noname.setAge(2);
