@@ -19,12 +19,12 @@ public class Task1 {
             do {
                 System.out.print(" ");
                 str = reader.readLine();
-                if (str.compareTo("stop") == 0)
+                if (str.equals("stop"))
                     break;
                 str += " ";
                 writer.write(str);
                 writer.flush();
-            } while (str.compareTo("stop") != 0);
+            } while (!str.equals("stop"));
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
